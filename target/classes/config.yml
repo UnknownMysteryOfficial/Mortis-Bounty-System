@@ -1,0 +1,15 @@
+#Thank you for downloading MortisBountySystem v1.0!
+#This is the configuration section for this plugin:
+
+#When players place a bounty with amount equals or lesser than "0".
+LowAmount: "&cBounty amount must be greater than zero."
+#When placers place a bounty with amount greater than that they got in their account.
+LowFunds: "&cYou do not have enough funds to place this bounty."
+#When players enters an invalid amount.
+InvalidAmount: "&cInvalid amount specified."
+#When players enters invalid target name.
+InvalidPlayer: "&cInvalid player specified."
+# Message format for broadcasting bounty placement
+bounty_placement_message: "&a%bountyplacer% has placed a bounty of &e%bountyamount% &aon &c%bountytarget%!"
+# Message format for notifying the killer of claiming the bounty
+bounty_claim_message: "&eYou have claimed a bounty of &a%bountyamount% &eby killing &c%bountyvictim%&e!"

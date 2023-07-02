@@ -1,0 +1,26 @@
+name: MortisBountySystem
+version: '${project.version}'
+main: com.mortisdevelopment.mortisbountysystem.MortisBountySystem
+api-version: '1.13'
+commands:
+  bounty:
+    description: Place a bounty on a player
+    usage: /bounty <player> <amount>
+    permission: bountyplugin.bounty
+permissions:
+  mortisbountysystem.bounty:
+    description: Allows players to place bounties
+    default: true
+placeholders:
+  bountyplacer:
+    description: The name of the player who placed the bounty
+    default: ""
+  bountytarget:
+    description: The name of the player who is the target of the bounty
+    default: ""
+  bountyamount:
+    description: The amount of the bounty
+    default: ""
+  bountyvictim:
+    description: The name of the player who was killed for claiming the bounty
+    default: ""
